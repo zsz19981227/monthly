@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: .14rem;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+html{
+    font-size: 625%;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 0.88rem;
+    text-align: center;
+    .headTop{
+        width: 100%;
+        height: 0.44rem;
+        display: flex;
+         line-height: .44rem;
+        i{
+            width: 10%;
+        }
+        p{
+            width: 80%;
+        }
+    }
+    .handTab{
+        width: 100%;
+        height: 0.4rem;
+        line-height: .35rem;
+        ul{
+            display: flex;
+            li{
+                width: 20%;
+            }
+        }
+    }
+   
+}
+.section{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    dl{
+        width: 48%;
+        margin-right: 1.5%;
+        dt{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.shuju{
+    width: 100%;
+    height: 100%;
+}
+.shuju-header{
+    width: 100%;
+    height: 0.44rem;
+    display: flex;
+    i{
+        width: 10%;
+        text-align: center;
+        line-height: .44rem;
+    }
+    p{
+        width: 80%;
+        display: flex;
+        margin-left: 30%;
+        margin-top: .05rem;
+        span{
+            width: 20%;
+            border: 1px solid #000;
+            height: 0.3rem;
+            text-align: center;
+            line-height: .3rem;
+            &:first-child{
+                border-radius: .02rem 0 0 .02rem;
+            }
+            &:last-child{
+                border-radius:0 .02rem .02rem 0;
+            }
+        }
+    }
+}
+.shuju-section{
+    width: 100%;
+    dd{
+        margin-left: .1rem;
+    }
+    img{
+        width: 100%;
+    }
+    p{
+        color: red;
+        font-size: .2rem;
+        line-height: .4rem;
+        span{
+            font-size: .2rem;
+        }
+    }
+}
+.additive{
+    color: #ff8143;
+    border-bottom: 2px solid #ff8143;
+}
+.col{
+    background-color: rgb(68, 68, 68);
+    color: aliceblue
+}

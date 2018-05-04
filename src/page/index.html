@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/icon/iconfont.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="headTop">
+                <i class="iconfont">&#xe653;</i>
+                <p>居家</p>
+                <i class="iconfont">&#xe729;</i>
+            </div>
+            <div class="handTab">
+                <ul>
+                    <li class="additive">床品件套</li>
+                    <li>被枕</li>
+                    <li>被枕</li>
+                    <li>被枕</li>
+                    <li>被枕</li>
+                </ul>
+            </div>
+
+        </header>
+        <section class="section">
+            <script type="text/x-handlebars-template" id="xr1">
+                {{#each data}}
+                <dl>
+                    <dt>
+                        <img src="{{img}}" alt="">
+                    </dt>
+                    <dd>
+                        <h3>{{name}}</h3>
+                        <p>￥<span>{{price}}</span></p>
+                    </dd>
+                </dl>
+                {{/each}}
+            </script>
+        </section>
+    </div>
+    <!-- <div class="shuju">
+        <header class="shuju-header">
+            <i class="iconfont">&#xe653;</i>
+            <p>
+                <span class="col">商品</span>
+                <span>详情</span>
+            </p>
+            <i class="iconfont">&#xe648;</i>
+        </header>
+        <section class="shuju-section">
+            <dl>
+                <dt>
+                    <img src="../static/img/0142135541fe180000019ae9b8cf86.jpg@1280w_1l_2o_100sh.png" alt="">
+                </dt>
+                <dd>
+                    <h3>Paisley欧式天丝四件套</h3>
+                    <p>￥<span>599</span></p>
+                </dd>
+            </dl>
+        </section>
+    </div> -->
+</body>
+<script src="../static/js/lib/require.js" data-main="../static/js/main"></script>
+<script>
+    // $(this)
+</script>
+
+</html>
